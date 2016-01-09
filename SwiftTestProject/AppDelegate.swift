@@ -12,10 +12,16 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var mainNavigationController : UINavigationController?
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        self.mainNavigationController = UINavigationController(navigationBarClass: nil, toolbarClass: nil)
+        self.window!.rootViewController = self.mainNavigationController;
+        
+        
         return true
     }
 
