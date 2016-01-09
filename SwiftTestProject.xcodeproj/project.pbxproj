@@ -9,18 +9,10 @@
 /* Begin PBXBuildFile section */
 		163B49B2E818654353BDF79E /* libPods-SwiftTestProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B651B77E6CE61B84562DF00C /* libPods-SwiftTestProjectTests.a */; };
 		473C896CD8EC820DA7F99408 /* Pods_SwiftTestProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4A5A78C2A021831166BB42 /* Pods_SwiftTestProject.framework */; };
-		D13942461C41627C0053395F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D13942441C41627C0053395F /* Model.xcdatamodeld */; };
-		D13942471C41627C0053395F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D13942441C41627C0053395F /* Model.xcdatamodeld */; };
-		D13942621C416CA20053395F /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13942611C416CA20053395F /* UserController.swift */; };
-		D13942631C416CA20053395F /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13942611C416CA20053395F /* UserController.swift */; };
-		D13942691C416CF20053395F /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13942681C416CF20053395F /* CoreDataStack.swift */; };
-		D139426A1C416CF20053395F /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13942681C416CF20053395F /* CoreDataStack.swift */; };
 		D13942701C4170E10053395F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D139426F1C4170E10053395F /* SettingsViewController.swift */; };
 		D13942711C4170E10053395F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D139426F1C4170E10053395F /* SettingsViewController.swift */; };
 		D13942741C4171250053395F /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D13942731C4171250053395F /* SettingsViewController.xib */; };
 		D13942751C4171250053395F /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D13942731C4171250053395F /* SettingsViewController.xib */; };
-		D13942921C4171D50053395F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13942911C4171D50053395F /* User.swift */; };
-		D13942931C4171D50053395F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13942911C4171D50053395F /* User.swift */; };
 		D13942951C4172A00053395F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13942941C4172A00053395F /* LoginViewController.swift */; };
 		D13942961C4172A00053395F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13942941C4172A00053395F /* LoginViewController.swift */; };
 		D13942981C4172C50053395F /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D13942971C4172C50053395F /* LoginViewController.xib */; };
@@ -42,9 +34,12 @@
 		D1BBC0D21C417557001BB4A9 /* Tweet+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BBC0C91C417557001BB4A9 /* Tweet+CoreDataProperties.swift */; };
 		D1BBC0D31C417557001BB4A9 /* TwitterUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BBC0CA1C417557001BB4A9 /* TwitterUser.swift */; };
 		D1BBC0D41C417557001BB4A9 /* TwitterUser+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BBC0CB1C417557001BB4A9 /* TwitterUser+CoreDataProperties.swift */; };
-		D1BBC0D51C417557001BB4A9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BBC0CC1C417557001BB4A9 /* User.swift */; };
 		D1BBC0D61C417557001BB4A9 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BBC0CD1C417557001BB4A9 /* UserInfo.swift */; };
 		D1BBC0D71C417557001BB4A9 /* UserInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BBC0CE1C417557001BB4A9 /* UserInfo+CoreDataProperties.swift */; };
+		D1BBC0DA1C417976001BB4A9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BBC0D81C417976001BB4A9 /* User.swift */; };
+		D1BBC0DB1C417976001BB4A9 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BBC0D91C417976001BB4A9 /* UserController.swift */; };
+		D1BBC0DD1C41798E001BB4A9 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BBC0DC1C41798E001BB4A9 /* CoreDataStack.swift */; };
+		D1BBC0E01C417B1F001BB4A9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1BBC0DE1C417B1F001BB4A9 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,12 +65,8 @@
 		4D9E02ECBBAE2C1177B77953 /* Pods-SwiftTestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTestProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTestProject/Pods-SwiftTestProject.debug.xcconfig"; sourceTree = "<group>"; };
 		4F4A5A78C2A021831166BB42 /* Pods_SwiftTestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTestProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B651B77E6CE61B84562DF00C /* libPods-SwiftTestProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftTestProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D13942451C41627C0053395F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		D13942611C416CA20053395F /* UserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserController.swift; path = SwiftTestProject/Model/UserManagement/UserController.swift; sourceTree = "<group>"; };
-		D13942681C416CF20053395F /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataStack.swift; path = SwiftTestProject/Model/CoreDataStack/CoreDataStack.swift; sourceTree = "<group>"; };
 		D139426F1C4170E10053395F /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D13942731C4171250053395F /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
-		D13942911C4171D50053395F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = SwiftTestProject/Model/UserManagement/User.swift; sourceTree = "<group>"; };
 		D13942941C4172A00053395F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D13942971C4172C50053395F /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		D139429A1C4173150053395F /* HomeTimelineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTimelineViewController.xib; sourceTree = "<group>"; };
@@ -99,9 +90,12 @@
 		D1BBC0C91C417557001BB4A9 /* Tweet+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tweet+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		D1BBC0CA1C417557001BB4A9 /* TwitterUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterUser.swift; sourceTree = "<group>"; };
 		D1BBC0CB1C417557001BB4A9 /* TwitterUser+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TwitterUser+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		D1BBC0CC1C417557001BB4A9 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D1BBC0CD1C417557001BB4A9 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		D1BBC0CE1C417557001BB4A9 /* UserInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D1BBC0D81C417976001BB4A9 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D1BBC0D91C417976001BB4A9 /* UserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		D1BBC0DC1C41798E001BB4A9 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		D1BBC0DF1C417B1F001BB4A9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		F7BCA31E967C517AE7DE0339 /* Pods-SwiftTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTestProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTestProject/Pods-SwiftTestProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,16 +139,15 @@
 		D13942431C4162120053395F /* CoreDataModel */ = {
 			isa = PBXGroup;
 			children = (
+				D1BBC0DE1C417B1F001BB4A9 /* Model.xcdatamodeld */,
 				D1BBC0C61C417557001BB4A9 /* HomeTimelineItem.swift */,
 				D1BBC0C71C417557001BB4A9 /* HomeTimelineItem+CoreDataProperties.swift */,
 				D1BBC0C81C417557001BB4A9 /* Tweet.swift */,
 				D1BBC0C91C417557001BB4A9 /* Tweet+CoreDataProperties.swift */,
 				D1BBC0CA1C417557001BB4A9 /* TwitterUser.swift */,
 				D1BBC0CB1C417557001BB4A9 /* TwitterUser+CoreDataProperties.swift */,
-				D1BBC0CC1C417557001BB4A9 /* User.swift */,
 				D1BBC0CD1C417557001BB4A9 /* UserInfo.swift */,
 				D1BBC0CE1C417557001BB4A9 /* UserInfo+CoreDataProperties.swift */,
-				D13942441C41627C0053395F /* Model.xcdatamodeld */,
 			);
 			path = CoreDataModel;
 			sourceTree = "<group>";
@@ -162,20 +155,18 @@
 		D13942601C416C7B0053395F /* UserManagement */ = {
 			isa = PBXGroup;
 			children = (
-				D13942911C4171D50053395F /* User.swift */,
-				D13942611C416CA20053395F /* UserController.swift */,
+				D1BBC0D81C417976001BB4A9 /* User.swift */,
+				D1BBC0D91C417976001BB4A9 /* UserController.swift */,
 			);
-			name = UserManagement;
-			path = Model/UserManagement;
+			path = UserManagement;
 			sourceTree = "<group>";
 		};
 		D13942671C416CC60053395F /* CoreDataStack */ = {
 			isa = PBXGroup;
 			children = (
-				D13942681C416CF20053395F /* CoreDataStack.swift */,
+				D1BBC0DC1C41798E001BB4A9 /* CoreDataStack.swift */,
 			);
-			name = CoreDataStack;
-			path = Model/CoreDataStack;
+			path = CoreDataStack;
 			sourceTree = "<group>";
 		};
 		D139426B1C4170060053395F /* ViewControllers */ = {
@@ -526,23 +517,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1BBC0DB1C417976001BB4A9 /* UserController.swift in Sources */,
 				D1BBC0CF1C417557001BB4A9 /* HomeTimelineItem.swift in Sources */,
 				D183CD5C1C414F1700EB2E20 /* ViewController.swift in Sources */,
+				D1BBC0DD1C41798E001BB4A9 /* CoreDataStack.swift in Sources */,
 				D183CD5A1C414F1700EB2E20 /* AppDelegate.swift in Sources */,
 				D1BBC0D21C417557001BB4A9 /* Tweet+CoreDataProperties.swift in Sources */,
-				D1BBC0D51C417557001BB4A9 /* User.swift in Sources */,
 				D1BBC0D61C417557001BB4A9 /* UserInfo.swift in Sources */,
 				D1BBC0D11C417557001BB4A9 /* Tweet.swift in Sources */,
-				D13942921C4171D50053395F /* User.swift in Sources */,
-				D13942621C416CA20053395F /* UserController.swift in Sources */,
+				D1BBC0E01C417B1F001BB4A9 /* Model.xcdatamodeld in Sources */,
+				D1BBC0DA1C417976001BB4A9 /* User.swift in Sources */,
 				D13942701C4170E10053395F /* SettingsViewController.swift in Sources */,
-				D13942691C416CF20053395F /* CoreDataStack.swift in Sources */,
 				D139429E1C4173290053395F /* HomeTimelineViewController.swift in Sources */,
 				D1BBC0D71C417557001BB4A9 /* UserInfo+CoreDataProperties.swift in Sources */,
 				D1BBC0D31C417557001BB4A9 /* TwitterUser.swift in Sources */,
 				D1BBC0D01C417557001BB4A9 /* HomeTimelineItem+CoreDataProperties.swift in Sources */,
 				D13942951C4172A00053395F /* LoginViewController.swift in Sources */,
-				D13942461C41627C0053395F /* Model.xcdatamodeld in Sources */,
 				D1BBC0D41C417557001BB4A9 /* TwitterUser+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -553,11 +543,7 @@
 			files = (
 				D139429F1C4173290053395F /* HomeTimelineViewController.swift in Sources */,
 				D183CD6F1C414F1700EB2E20 /* SwiftTestProjectTests.swift in Sources */,
-				D13942631C416CA20053395F /* UserController.swift in Sources */,
 				D13942711C4170E10053395F /* SettingsViewController.swift in Sources */,
-				D139426A1C416CF20053395F /* CoreDataStack.swift in Sources */,
-				D13942931C4171D50053395F /* User.swift in Sources */,
-				D13942471C41627C0053395F /* Model.xcdatamodeld in Sources */,
 				D13942961C4172A00053395F /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -804,14 +790,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		D13942441C41627C0053395F /* Model.xcdatamodeld */ = {
+		D1BBC0DE1C417B1F001BB4A9 /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				D13942451C41627C0053395F /* Model.xcdatamodel */,
+				D1BBC0DF1C417B1F001BB4A9 /* Model.xcdatamodel */,
 			);
-			currentVersion = D13942451C41627C0053395F /* Model.xcdatamodel */;
-			name = Model.xcdatamodeld;
-			path = Model/CoreDataModel/Model.xcdatamodeld;
+			currentVersion = D1BBC0DF1C417B1F001BB4A9 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
