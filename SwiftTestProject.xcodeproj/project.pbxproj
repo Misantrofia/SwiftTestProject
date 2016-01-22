@@ -40,6 +40,8 @@
 		D1BBC0DB1C417976001BB4A9 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BBC0D91C417976001BB4A9 /* UserController.swift */; };
 		D1BBC0DD1C41798E001BB4A9 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BBC0DC1C41798E001BB4A9 /* CoreDataStack.swift */; };
 		D1BBC0E01C417B1F001BB4A9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1BBC0DE1C417B1F001BB4A9 /* Model.xcdatamodeld */; };
+		FD79BCF71C523C3F0023DD59 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = FD79BCF51C523C3F0023DD59 /* iTunesArtwork.png */; };
+		FD79BCF81C523C3F0023DD59 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD79BCF61C523C3F0023DD59 /* iTunesArtwork@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +99,8 @@
 		D1BBC0DC1C41798E001BB4A9 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		D1BBC0DF1C417B1F001BB4A9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		F7BCA31E967C517AE7DE0339 /* Pods-SwiftTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTestProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTestProject/Pods-SwiftTestProject.release.xcconfig"; sourceTree = "<group>"; };
+		FD79BCF51C523C3F0023DD59 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		FD79BCF61C523C3F0023DD59 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +237,7 @@
 			children = (
 				D139426B1C4170060053395F /* ViewControllers */,
 				D13942421C4162030053395F /* Model */,
+				FD79BCF41C523C3F0023DD59 /* Resources */,
 				D183CD591C414F1700EB2E20 /* AppDelegate.swift */,
 				D183CD5B1C414F1700EB2E20 /* ViewController.swift */,
 				D183CD5D1C414F1700EB2E20 /* Main.storyboard */,
@@ -279,6 +284,15 @@
 				B651B77E6CE61B84562DF00C /* libPods-SwiftTestProjectTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD79BCF41C523C3F0023DD59 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FD79BCF51C523C3F0023DD59 /* iTunesArtwork.png */,
+				FD79BCF61C523C3F0023DD59 /* iTunesArtwork@2x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -394,6 +408,8 @@
 				D139429B1C4173150053395F /* HomeTimelineViewController.xib in Resources */,
 				D13942981C4172C50053395F /* LoginViewController.xib in Resources */,
 				D183CD641C414F1700EB2E20 /* LaunchScreen.storyboard in Resources */,
+				FD79BCF81C523C3F0023DD59 /* iTunesArtwork@2x.png in Resources */,
+				FD79BCF71C523C3F0023DD59 /* iTunesArtwork.png in Resources */,
 				D183CD611C414F1700EB2E20 /* Assets.xcassets in Resources */,
 				D183CD5F1C414F1700EB2E20 /* Main.storyboard in Resources */,
 				D13942741C4171250053395F /* SettingsViewController.xib in Resources */,
